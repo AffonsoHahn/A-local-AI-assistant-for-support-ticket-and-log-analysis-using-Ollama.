@@ -1,0 +1,27 @@
+[
+  {
+    "id": "sample-01",
+    "category_expected": "API/Integration",
+    "ticket": "A reporting integration started failing after a deployment. The client receives HTTP 401 from GET /api/v1/reports. The request includes an Authorization header, but the support ticket does not include the token or token expiry details."
+  },
+  {
+    "id": "sample-02",
+    "category_expected": "Authentication/SSO",
+    "ticket": "Users are redirected back to the login page after signing in through SSO. The browser console shows a SAML response validation error. No full assertion or personal information is available."
+  },
+  {
+    "id": "sample-03",
+    "category_expected": "Network/DNS",
+    "ticket": "A scheduled service cannot reach api.example.invalid. The log says: temporary failure in name resolution. Other local tasks are running. No DNS lookup output was attached."
+  },
+  {
+    "id": "sample-04",
+    "category_expected": "Data/Analytics",
+    "ticket": "A dashboard loads successfully but shows yesterday's figures. The source integration reports its last successful refresh was 36 hours ago. No transformation or refresh-job logs were provided."
+  },
+  {
+    "id": "sample-05",
+    "category_expected": "Permissions",
+    "ticket": "A user can open a business application but receives HTTP 403 when exporting a report. A colleague with a different role can export it. Role and permission configuration has not yet been compared."
+  }
+]
